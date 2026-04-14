@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSISTÊNCIA CASA & SAÚDE | NEXUS v68</title>
+    <style>
+        :root {
+            --primary: #1a3a5f;
+            --accent: #d4af37;
+            --bg: #fdfdfd;
+            --text: #1a1a1a;
+            --link: #0056b3;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Georgia', serif;
+            line-height: 1.4;
+            padding: 10px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px double var(--primary);
+            margin-bottom: 12px;
+            padding: 5px 0;
+        }
+
+        header span.sup-title {
+            display: block;
+            font-family: sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: -4px;
+        }
+
+        header h1 {
+            font-size: 1.85rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .edition-info {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid var(--primary);
+            border-bottom: 1px solid var(--primary);
+            padding: 4px;
+            margin-top: 5px;
+            font-size: 0.6rem;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; }
+
+        .section-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            align-items: flex-start;
+        }
+
+        .section-row:nth-child(even) { flex-direction: row-reverse; }
+
+        .img-side { flex: 1; min-width: 220px; }
+        .text-side { flex: 2.8; text-align: justify; font-size: 0.85rem; }
+
+        .img-frame {
+            width: 100%;
+            height: 160px;
+            background: #fff;
+            border: 1px solid #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .img-frame img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 1.5px solid var(--accent);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        .adv-link {
+            font-family: sans-serif;
+            font-size: 0.7rem;
+            color: var(--link);
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 8px;
+            border-bottom: 1px solid var(--link);
+        }
+
+        .summary-box {
+            background: #f0f4f8;
+            border: 2px solid var(--primary);
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .summary-box h3 {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        .profile-footer {
+            border-top: 2.5px solid var(--primary);
+            padding-top: 15px;
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .profile-img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid var(--primary); object-fit: cover; }
+
+        footer { text-align: center; padding: 20px; color: #888; font-size: 0.65rem; border-top: 1px solid #ccc; }
+
+        @media (max-width: 750px) { .section-row, .section-row:nth-child(even) { flex-direction: column; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="sup-title">Assistência</span>
+    <h1>Casa & Saúde</h1>
+    <div class="edition-info">
+        <span>LABORATÓRIO TÉCNICO // BIO-ENGENHARIA // CIBERNÉTICA</span>
+        <span>SÃO PAULO, 14 DE ABRIL DE 2026</span>
+        <span>NEXUS CORE v68</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="summary-box">
+        <h3>Panorama Estratégico por Samir Barreto</h3>
+        <p>Esta edição do Nexus Core consolida a visão de uma infraestrutura doméstica onde a tecnologia não é apenas um utilitário, mas uma extensão vital do bem-estar humano. Através da convergência entre a precisão do hardware clássico e a vanguarda do monitoramento biossemântico, estabelecemos um protocolo de assistência que une a saúde neurológica, a soberania do hardware através do reparo especializado e a integração de sistemas ópticos de alta fidelidade para o diagnóstico preventivo e a preservação da memória técnica.</p>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://i.pinimg.com/originals/5c/1d/1e/5c1d1eec14a24028912839dd43553e6c.jpg" alt="Laboratório Técnico"></div>
+        </div>
+        <div class="text-side">
+            <h2>Laboratório de Engenharia e Diagnóstico</h2>
+            <p>O centro de operações do Nexus Core é um ambiente de alta precisão projetado para o desenvolvimento de soluções cibernéticas e reparo de hardware crítico. Este laboratório integra estações de micro-soldagem, osciloscópios de alta frequência e ferramentas de análise térmica. É neste espaço que a teoria encontra a prática, permitindo a prototipagem de biossensores e a recuperação de sistemas que sustentam a infraestrutura de saúde assistida.</p>
+            <a href="https://www.google.com/search?q=professional+electronics+lab+setup+2026" class="adv-link">INFRAESTRUTURA DE LABORATÓRIO TÉCNICO</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://raw.githubusercontent.com/SamirBarreto32/imagens/main/doutor.jpg" alt="Doutor"></div>
+        </div>
+        <div class="text-side">
+            <h2>Interfaces Cerebrais e Assistência Preventiva</h2>
+            <p>A neurociência aplicada ao ambiente doméstico evoluiu para a criação de sistemas biorreativos. O monitoramento contínuo de sinais eletroencefalográficos e impulsos sinápticos permite a detecção precoce de desequilíbrios bioquímicos e picos de estresse crônico. No ecossistema Nexus, esses dados são convertidos em protocolos de ajuste ambiental, visando estabilizar a rede neural do ocupante antes que sintomas clínicos se manifestem fisicamente.</p>
+            <a href="https://www.google.com/search?q=brain-computer+interface+clinical+biosignals+2026" class="adv-link">BIOSSINAIS E INTERFACES CEREBRAIS 2026</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://raw.githubusercontent.com/SamirBarreto32/imagens/main/console.jpg" alt="Console"></div>
+        </div>
+        <div class="text-side">
+            <h2>Linguística Computacional e Controle de Erros</h2>
+            <p>A integridade de um sistema inteligente depende da ausência de ambiguidades em sua camada léxica. A gramática funciona como um protocolo de rede estrito; ao tratar a estrutura da linguagem como código-fonte puro, o Nexus Core elimina interpretações errôneas da inteligência artificial durante o processamento de diagnósticos. O uso de uma sintaxe técnica padronizada permite que a interface entre o pensamento humano e a execução da máquina ocorra com fidelidade máxima.</p>
+            <a href="https://www.google.com/search?q=computational+linguistics+AI+safety+protocols" class="adv-link">LINGUÍSTICA COMPUTACIONAL E SEGURANÇA</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://fk-secondhand.com/wp-content/uploads/2024/12/118563_yashica_108_multi_program_mit_yashica_mc_35-70_5134365_05.jpg" alt="Yashica"></div>
+        </div>
+        <div class="text-side">
+            <h2>Preservação de Hardware: O Legado Mecânico</h2>
+            <p>A Yashica 108 simboliza uma era de engenharia onde a robustez física superava a obsolescência programada. Em um mundo de dispositivos descartáveis, a manutenção de hardware mecânico puro torna-se um ato de resistência técnica. O estudo de seus obturadores e lentes manuais provê a base para o entendimento da óptica de precisão, essencial para sistemas de captura que pretendem manter o registro histórico intacto por décadas.</p>
+            <a href="https://www.google.com/search?q=yashica+108+mechanical+engineering+durability" class="adv-link">ENGENHARIA MECÂNICA E LONGEVIDADE</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdL5K9HXf24S5BJ2gkaJRD-YgPTUjl6YfLNw&s" alt="Sony Alpha"></div>
+        </div>
+        <div class="text-side">
+            <h2>Forense Digital e Sensores CMOS Avançados</h2>
+            <p>A tecnologia presente na linha Sony Alpha redefine o conceito de visão técnica. Seus sensores de alta granularidade permitem o mapeamento biométrico detalhado, capaz de identificar variações térmicas e de oxigenação periférica na derme através da captura de luz em espectros específicos. Integrada ao Nexus, essa capacidade óptica transforma a câmera em um instrumento de diagnóstico não invasivo para telemedicina de alta fidelidade técnica.</p>
+            <a href="https://www.google.com/search?q=sony+alpha+CMOS+biometric+analysis+precision" class="adv-link">ANÁLISE BIOMÉTRICA POR SENSORES CMOS</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://raw.githubusercontent.com/SamirBarreto32/imagens/main/canteiro.jpg" alt="Urbanismo"></div>
+        </div>
+        <div class="text-side">
+            <h2>Metabolismo Urbano e Conectividade Doméstica</h2>
+            <p>O lar é um nó ativo dentro do ecossistema urbano. A reurbanização moderna exige que as habitações monitorem a qualidade do ar externo e variações de infraestrutura. O Nexus Core integra dados urbanos em tempo real para otimizar os filtros de purificação e o isolamento acústico, criando uma barreira protetora que reage às mudanças da metrópole, transformando a moradia em um bio-sistema reativo.</p>
+            <a href="https://www.google.com/search?q=smart+city+bioreactive+home+infrastructure" class="adv-link">INFRAESTRUTURA URBANA BIORREATIVA</a>
+        </div>
+    </div>
+
+    <div class="section-row">
+        <div class="img-side">
+            <div class="img-frame"><img src="https://www.globalwellpcba.com/wp-content/uploads/2024/10/Close-up-of-an-integrated-circuit-on-a-circuit-board.webp" alt="Circuitos"></div>
+        </div>
+        <div class="text-side">
+            <h2>Soberania Técnica: Micro-reparo Nível SMD</h2>
+            <p>O domínio sobre o hardware em nível de componente é a fronteira final da independência tecnológica. O reparo sob microscopia de placas controladoras e circuitos integrados de alta densidade garante que sistemas críticos permaneçam operacionais. O conhecimento técnico de trilhas e capacitância ESR permite que o Nexus Core ignore os limites da obsolescência, valorizando a engenharia de precisão e a recuperação de hardware essencial.</p>
+            <a href="https://www.google.com/search?q=SMD+rework+microscopy+component+shortage+2026" class="adv-link">TÉCNICAS DE MICRO-SOLDA E REPARO SMD</a>
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <img src="https://raw.githubusercontent.com/SamirBarreto32/imagens/main/rosto.jpg" class="profile-img" alt="Samir">
+        <div class="profile-info">
+            <h3>Samir Barreto - Especialista Técnico</h3>
+            <p>Técnico em Eletrônica (44 anos). Idealizador e Desenvolvedor do Ecossistema Nexus Core. Especialista em manutenção de hardware crítico, integração de sistemas assistivos e cyber-medicina.</p>
+            <p style="font-weight: bold; color: var(--accent);">barrettsammy32@gmail.com // (11) 5484-4573 // SÃO PAULO - BR</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    // NEXUS CORE PRESS // ASSISTÊNCIA CASA & SAÚDE // 2026 // TECNOLOGIA E CIÊNCIA // DESIGN: SAMIR BARRETO
+</footer>
+
+</body>
+</html>
